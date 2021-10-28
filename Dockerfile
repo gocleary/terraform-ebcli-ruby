@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:0.12.29
+FROM hashicorp/terraform:1.0.10
 
 RUN apk --no-cache --update add \
         bash \
