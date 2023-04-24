@@ -14,7 +14,9 @@ RUN apk --no-cache --update add \
         python3 \
         python3-dev \
         py3-pip \
-        ruby
+        ruby \
+        zip \
+        unzip
 
 RUN pip3 install --upgrade pip
 
