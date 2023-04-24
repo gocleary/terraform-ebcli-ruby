@@ -8,6 +8,7 @@ RUN apk --no-cache --update add \
         jq \
         git \
         curl \
+        curl-dev \
         libffi-dev \
         openssl-dev \
         libgcc \
