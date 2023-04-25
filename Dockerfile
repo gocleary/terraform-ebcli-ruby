@@ -8,13 +8,16 @@ RUN apk --no-cache --update add \
         jq \
         git \
         curl \
+        curl-dev \
         libffi-dev \
         openssl-dev \
         libgcc \
         python3 \
         python3-dev \
         py3-pip \
-        ruby
+        ruby \
+        zip \
+        unzip
 
 RUN pip3 install --upgrade pip
 
